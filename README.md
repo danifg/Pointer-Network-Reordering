@@ -15,7 +15,7 @@ Given training, development and test discontinuous splits (``discbracket`` forma
 
       discodop treetransforms reordering/data_discbracket/<ptb|negra|tiger>_<train|dev>.discbracket reordering/input_parser/<ptb|negra|tiger>_<train|dev>.bracket --inputfmt=discbracket --outputfmt=bracket 
 
-Please note that discontinuous test treebanks must be named as ``<ptb|negra|tiger>_test.discbracket`` so that they can be used for the final evaluation.
+Please note that discontinuous test splits must be named as ``<ptb|negra|tiger>_test.discbracket`` so that they can be used for the final evaluation.
 
 
 ## Experiments
