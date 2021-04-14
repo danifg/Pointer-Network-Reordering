@@ -1,6 +1,6 @@
 
 # Pointer Network Reordering
-This repository includes a Pointer Network for reordering sentences according to a continuous canonical arrangement (CCA) defined by DISCODOP, allowing the discontinuous-to-continuous conversion described in [Reducing Discontinuous to Continuous Parsing with Pointer Network Reordering](https://arxiv.org/abs/). This is mainly based on the framework by Ma et al. (2018) (https://github.com/XuezheMax/NeuroNLP2). 
+This repository includes a Pointer Network for reordering sentences according to a continuous canonical arrangement (CCA) defined by DISCODOP, allowing the discontinuous-to-continuous conversion described in [Reducing Discontinuous to Continuous Parsing with Pointer Network Reordering](https://arxiv.org/abs/2104.06239). This is mainly based on the framework by Ma et al. (2018) (https://github.com/XuezheMax/NeuroNLP2). 
 
 
 ## Requirements
@@ -68,10 +68,19 @@ This command will directly create test files ``reordering/input_parser/<ptb|negr
 
 ### Citation
 
-
+```
+@misc{fernándezgonzález2021reducing,
+      title={Reducing Discontinuous to Continuous Parsing with Pointer Network Reordering},
+            author={Daniel Fernández-González and Carlos Gómez-Rodríguez},
+	          year={2021},
+		        eprint={2104.06239},
+			      archivePrefix={arXiv},
+			            primaryClass={cs.CL}
+				    }
+```
 
 ### Acknowledgments
 
-We acknowledge the European Research Council (ERC), which has funded this research under the European Union’s Horizon 2020 research and innovation programme (FASTPARSE, grant agreement No 714150), MINECO (ANSWER-ASAP, TIN2017-85160-C2- 1-R), Xunta de Galicia (ED431C 2020/11), and Centro de Investigaci\'on de Galicia ``CITIC'', funded by Xunta de Galicia and the European Union (ERDF - Galicia 2014-2020 Program), by grant ED431G 2019/01.
+We acknowledge the European Research Council (ERC), which has funded this research under the European Union’s Horizon 2020 research and innovation programme (FASTPARSE, grant agreement No 714150), MINECO (ANSWER-ASAP, TIN2017-85160-C2- 1-R), Xunta de Galicia (ED431C 2020/11), and Centro de Investigación de Galicia ''CITIC'', funded by Xunta de Galicia and the European Union (ERDF - Galicia 2014-2020 Program), by grant ED431G 2019/01.
 
 
