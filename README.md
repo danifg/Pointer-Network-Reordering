@@ -69,14 +69,14 @@ This command will directly create test files ``reordering/input_parser/<ptb|negr
 ### Citation
 
 ```
-@misc{fernándezgonzález2021reducing,
-      title={Reducing Discontinuous to Continuous Parsing with Pointer Network Reordering},
-            author={Daniel Fernández-González and Carlos Gómez-Rodríguez},
-	          year={2021},
-		        eprint={2104.06239},
-			      archivePrefix={arXiv},
-			            primaryClass={cs.CL}
-				    }
+	@misc{fernandezgonzalez2021reducing,
+		title={Reducing Discontinuous to Continuous Parsing with Pointer Network Reordering},
+            	author={Daniel Fernández-González and Carlos Gómez-Rodríguez},
+	        year={2021},
+		eprint={2104.06239},
+		archivePrefix={arXiv},
+		primaryClass={cs.CL}
+	}
 ```
 
 ### Acknowledgments
